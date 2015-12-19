@@ -1,6 +1,4 @@
-@extends('app')
 
-@section('content')
 <div class="container">
 
     @include('common.errors')
@@ -11,4 +9,4 @@
 
     {!! Form::close() !!}
 </div>
-@endsection
+

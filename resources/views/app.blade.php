@@ -4,10 +4,12 @@
 <meta charset="UTF-8">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 {!! Html::script('js/toastr.js') !!}
-{!! Html::style('css/toastr.css') !!}
- 
+{!! Html::script('js/toastr.js') !!}
+{!! Html::script('js/modal.js') !!}
+  
  <title>Inventario</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
 
 </head>
 <body>

@@ -146,6 +146,7 @@ return [
         'Darsain\Console\ConsoleServiceProvider',
         Barryvdh\Debugbar\ServiceProvider::class,
         'Intervention\Image\ImageServiceProvider',
+        'AdamWathan\BootForms\BootFormsServiceProvider',
 
 
 
@@ -212,6 +213,7 @@ return [
            // 'Menu' => Lavary\Menu\Facade::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'Image' => 'Intervention\Image\Facades\Image',
+        'BootForm' => 'AdamWathan\BootForms\Facades\BootForm',
 
 
     ],

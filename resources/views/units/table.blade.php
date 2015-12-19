@@ -14,10 +14,18 @@
 			<td>{!! $unit->created_at !!}</td>
 			<td>{!! $unit->updated_at !!}</td>
             <td>
-                <a href="{!! route('units.edit', [$unit->id]) !!}"><i class="glyphicon glyphicon-edit"></i></a>
+                <a data-toggle="modal" data-target="#myModal" href="{!! route('units.edit', [$unit->id]) !!}"><i class="glyphicon glyphicon-edit bootstrap-modal-form-open"></i></a>
                 <a href="{!! route('units.delete', [$unit->id]) !!}" onclick="return confirm('Are you sure wants to delete this Unit?')"><i class="glyphicon glyphicon-remove"></i></a>
             </td>
         </tr>
     @endforeach
     </tbody>
 </table>
+
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
