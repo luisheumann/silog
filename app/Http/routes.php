@@ -24,6 +24,8 @@ Route::get('/hola', function()
 });
 
 
+Route::get('paises', 'PaisesController@paises');
+
 
 Route::resource('units', 'UnitController');
 
